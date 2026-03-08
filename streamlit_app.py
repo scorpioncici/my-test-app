@@ -6,7 +6,7 @@ st.set_page_config(page_title="矩阵内容工厂", page_icon="📲", layout="wi
 
 # --- 核心配置区 ---
 # 已内置你的 DeepSeek API Key
-DEEPSEEK_API_KEY = "sk-f31479a860bb4d3d8b6b235baf43c927"
+DEEPSEEK_API_KEY = "sk-f33479a860bb4d3d8b6b235baf43c927"
 BASE_URL = "https://api.deepseek.com"
 
 # 初始化 OpenAI 客户端 (DeepSeek 兼容 OpenAI 格式)
