@@ -1,5 +1,5 @@
 import streamlit as st
-import openai  # 或者使用其他大模型SDK
+import deepseek-chat # 或者使用其他大模型SDK
 
 # --- 页面配置 ---
 st.set_page_config(page_title="AI 矩阵内容生成器", layout="wide")
@@ -10,8 +10,8 @@ st.caption("输入一段灵感，生成 3 个账号 × 2 个平台的爆款文�
 # --- 侧边栏：API 配置 ---
 with st.sidebar:
     st.header("设置")
-    api_key = st.text_input("输入 API Key", type="password")
-    model_name = st.selectbox("选择模型", ["gpt-4o", "deepseek-chat", "qwen-max"])
+    api_key = st.text_input("sk-f33479a860bb4d3d8b6b235baf43c927")
+    model_name = st.selectbox("选择模型", ["deepseek-chat"])
     counter = st.number_input("当前篇数（影响互动引导出现频率）", min_value=1, value=1)
 
 # --- 核心提示词库 ---
